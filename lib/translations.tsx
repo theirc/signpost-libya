@@ -149,7 +149,6 @@ export function populateHeaderBannerStrings(dynamicContent: {
   [key: string]: string;
 }): HeaderBannerStrings {
   return {
-    // TODO: replace welcomeTitle with website-specific Dynamic content ID.
     welcomeTitle: dynamicContent['malomat_mission_statement'],
     socialMediaTitle: dynamicContent['default_banner_social_media_title'],
     socialMediaDescription:
@@ -185,7 +184,6 @@ export function populateServiceMapStrings(dynamicContent: {
   };
 }
 
-/** Populate localized categories section strings from Dynamic content. */
 export function populateCategoriesSectionStrings(dynamicContent: {
   [key: string]: string;
 }): CardsListStrings {
@@ -263,8 +261,6 @@ export function getSelectTopicLabel(dynamicContent: {
 }): string {
   return dynamicContent['default_select_topic'];
 }
-
-// TODO(annkats): add populateServiceMapStrings() once Service map becomes a Shared component.
 
 export function populateArticleContentStrings(dynamicContent: {
   [key: string]: string;

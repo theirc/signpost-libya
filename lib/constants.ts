@@ -17,14 +17,8 @@ export const REVALIDATION_TIMEOUT_SECONDS: number = 1 * 60 * 60;
 // TODO
 export const ABOUT_US_ARTICLE_ID: number = 123;
 
-// The information hierary of the website.
-// Set to true for the category -> section -> article hierarchy, similar to that of United for Ukraine.
-// Set to false for the "information" -> category -> article hierarchy, similar to that of Beporsed.
-//
-// TODO
 export const USE_CAT_SEC_ART_CONTENT_STRUCTURE = false;
 
-// A mapping from category ID to a Material icon for that category.
 export const CATEGORY_ICON_NAMES: { [key: string]: string } = {
   '14674080914461': 'home',
   '14700121764381': 'work',
@@ -37,20 +31,14 @@ export const CATEGORY_ICON_NAMES: { [key: string]: string } = {
   '14700128557085': 'campaign',
 };
 
-// A mapping from section ID to a Material icon for that section.
 export const SECTION_ICON_NAMES: { [key: string]: string } = {
-  /* TODO */
   '123': 'home_work', // Placeholder
 };
 
-// A list of category IDs that the site should not display.
 export const CATEGORIES_TO_HIDE: number[] = [
   14484797099805, 14485122232221, 14484840389149,
 ];
 
-// A map from a locale code to Zendesk locale id used for dynamic content translations.
-// https://developer.zendesk.com/api-reference/ticketing/account-configuration/locales/
-// Keep in sync with locales configured in /next.config.js.
 export const DYNAMIC_CONTENT_LOCALES: { [key: string]: number } = {
   'en-us': 1,
   ar: 66,
@@ -72,7 +60,6 @@ export const ALGOLIA_SEARCH_API_KEY = '0d9093280e7b2bc2b6ca12ed4180fd0a';
 export const ALGOLIA_SEARCH_API_KEY_WRITE =
   process.env.ALGOLIA_SEARCH_API_KEY_WRITE ?? '';
 
-// See README for more info on how to create indexes.
 export const ALGOLIA_ARTICLE_INDEX_NAME = 'zendesk_signpost-libya_articles';
 export const ALGOLIA_QUERY_INDEX_NAME =
   'zendesk_signpost-afghanistan_articles_query_suggestions';
