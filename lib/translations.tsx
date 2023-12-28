@@ -136,8 +136,7 @@ export function populateSocialMediaLinks(dynamicContent: {
     },
     whatsappLink: {
       title: dynamicContent['default_banner_whatsapp_title'],
-      // TODO: create Dynamic content with link to Whatsapp page
-      href: '', // dynamicContent['<site_prefix>_whatsapp_link']
+      href: dynamicContent['malomat_whatsapp_link'],
     },
     messengerLink: {
       title: dynamicContent['default_banner_messenger_title'],
