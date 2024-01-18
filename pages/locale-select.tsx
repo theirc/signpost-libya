@@ -11,12 +11,16 @@ import logo from '../public/libya_logo_transparent_orange.png';
 
 const langs: Lang[] = [
   {
+    langShort: 'ar',
+    langLong: 'العربية',
+  },
+  {
     langShort: 'en-us',
     langLong: 'English',
   },
   {
-    langShort: 'ar',
-    langLong: 'العربية',
+    langShort: 'fr',
+    langLong: 'Français',
   },
 ];
 

@@ -42,6 +42,7 @@ export const CATEGORIES_TO_HIDE: number[] = [
 export const DYNAMIC_CONTENT_LOCALES: { [key: string]: number } = {
   'en-us': 1,
   ar: 66,
+  fr: 16,
 };
 
 export const ZENDESK_AUTH_HEADER = {

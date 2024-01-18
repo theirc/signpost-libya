@@ -7,7 +7,7 @@ const nextConfig = {
   swcMinify: false,
   // Keep in sync with locales configured in /lib/locale.ts.
   i18n: {
-    locales: ['default', 'en-us', 'ar'],
+    locales: ['default', 'en-us', 'ar', 'fr'],
     defaultLocale: 'default',
     localeDetection: false,
   },
@@ -31,6 +31,10 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'images.ctfassets.net',
+      },
+      {
+        protocol: 'https',
+        hostname: 'directus-irc.azurewebsites.net',
       },
     ],
   },
