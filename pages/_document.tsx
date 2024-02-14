@@ -10,6 +10,10 @@ function Document() {
           async
         ></script>
         <link
+          href="https://fonts.cdnfonts.com/css/futura-pt"
+          rel="stylesheet"
+        ></link>
+        <link
           href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
           rel="stylesheet"
         />
