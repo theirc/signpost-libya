@@ -4,6 +4,13 @@ function Document() {
   return (
     <Html>
       <Head>
+        <meta
+          name="google-site-verification"
+          content="DdxRo-Rvkco9Iqol92PoPYiV8i5reOi29URXam1bfZs"
+        />
+        <meta property="og:title" content="Malomat" />
+        <meta property="og: description" content="Malomat website" />
+        <meta property="og:image" content="https://malomat.org/api/og-image" />
         <script
           src="https://kit.fontawesome.com/027db3ea3f.js"
           crossOrigin="anonymous"
