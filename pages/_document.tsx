@@ -8,6 +8,10 @@ function Document() {
           name="google-site-verification"
           content="DdxRo-Rvkco9Iqol92PoPYiV8i5reOi29URXam1bfZs"
         />
+        <meta
+          name="google-site-verification"
+          content="jJU7gklRBoNg-dWoFFYKqMg2jN6vegf56-AwE2AtfrY"
+        />
         <meta property="og:title" content="Malomat" />
         <meta property="og: description" content="Malomat website" />
         <meta property="og:image" content="https://malomat.org/api/og-image" />
