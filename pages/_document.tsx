@@ -6,10 +6,6 @@ function Document() {
       <Head>
         <meta
           name="google-site-verification"
-          content="DdxRo-Rvkco9Iqol92PoPYiV8i5reOi29URXam1bfZs"
-        />
-        <meta
-          name="google-site-verification"
           content="jJU7gklRBoNg-dWoFFYKqMg2jN6vegf56-AwE2AtfrY"
         />
         <meta property="og:title" content="Malomat" />
