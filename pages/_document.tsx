@@ -6,7 +6,7 @@ function Document() {
       <Head>
         <meta
           name="google-site-verification"
-          content="DdxRo-Rvkco9Iqol92PoPYiV8i5reOi29URXam1bfZs"
+          content="kZKvJzNJrYQNcshpUxIDyP3QXvz02-Qn1EE62VOoqZM"
         />
         <meta property="og:title" content="Malomat" />
         <meta property="og: description" content="Malomat website" />
